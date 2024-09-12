@@ -1,0 +1,27 @@
+UID          PID    PPID  C STIME TTY          TIME CMD
+root           1       0  0 19:29 ?        00:00:00 /bin/bash /google/scripts/onrun.sh sleep infinity
+syslog         9       1  0 19:29 ?        00:00:01 /usr/sbin/rsyslogd
+root          25       1  0 19:29 ?        00:00:00 /usr/bin/python /usr/bin/supervisord -n -c /google/devshell/supervisord.conf --pidfile=/var/run/supervisor.pid --logfile=/var/log/supervisord.log
+root          26       1  0 19:29 ?        00:00:00 logger -t supervisord
+root          61       1  0 19:29 ?        00:00:00 sshd: /usr/sbin/sshd -p 22 -o AuthorizedKeysFile=/etc/ssh/keys/authorized_keys [listener] 0 of 10-60 startups
+root         193       1  0 19:29 ?        00:00:00 /usr/bin/dockerd -p /var/run/docker.pid --mtu=1460 --registry-mirror=https://us-mirror.gcr.io
+root         248     193  0 19:29 ?        00:00:00 containerd --config /var/run/docker/containerd/containerd.toml
+root         255      25  0 19:29 ?        00:00:00 /google/devshell/editor/proxy/editor-proxy -static-content-dir=/google/devshell/editor/theia/lib -etag-file=/google/devshell/editor/proxy/theia-etags.txt -editor-dir=/google/devshell/editor/theia
+root         256      25  0 19:29 ?        00:00:00 sudo /google/devshell/tmux-agent
+root         260     256  0 19:29 ?        00:00:00 /google/devshell/tmux-agent
+root         422       1  0 19:29 ?        00:00:00 sleep infinity
+root         425     255  0 19:32 ?        00:00:00 runuser -l samikm2291 -c export GOPATH=/home/samikm2291/gopath:/google/gopath HOME=/home/samikm2291 CLOUD_SHELL=true EDITOR_IN_CLOUD_SHELL=true CLOUD_CODE_CLOUD_SHELL_AUTHENTICATION='true' MINIKUBE_FORCE_SYSTEMD=true MINIKUBE_HOME=/google/minikube MINIKUBE_WANTUPDATENOTIFICATION=false USE_GKE_GCLOUD_AUTH_PLUGIN=True USE_PARTITIONED_COOKIES=true PATH=/opt/gradle/bin:/opt/maven/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/local/go/bin:/usr/local/node_packages/node_modules/.bin:/usr/local/rvm/bin:/google/go_appengine:/google/google_appengine:/home/samikm2291/gopath/bin:/google/gopath/bin:/home/samikm2291/.gems/bin CLOUD_SHELL_FRAME_ANCESTORS="https://*.corp.google.com:* https://*.sandbox.google.com:* https://console.cloud.google.com https://ide.cloud.google.com https://shell.cloud.google.com https://ssh.cloud.google.com"  && cd /google/devshell/editor/code-oss-for-cloud-shell && ./bin/codeoss-cloudshell --host=0.0.0.0 --port=3000
+samikm2+     426     425  0 19:32 ?        00:00:00 sh ./bin/codeoss-cloudshell --host=0.0.0.0 --port=3000
+samikm2+     436     426  0 19:32 ?        00:00:05 /google/devshell/editor/code-oss-for-cloud-shell/node /google/devshell/editor/code-oss-for-cloud-shell/out/server-main.js --host=0.0.0.0 --port=3000
+root         895      61  0 19:35 ?        00:00:00 sshd: samikm2291 [priv]
+samikm2+     897     895  0 19:35 ?        00:00:00 sshd: samikm2291@pts/0
+samikm2+     898     897  0 19:35 pts/0    00:00:00 bash -c (sudo touch /var/run/google/devshell/36553 &)             trap "sudo rm -f /var/run/google/devshell/36553" EXIT HUP INT QUIT PIPE TERM;             /bin/bash --norc --noprofile
+samikm2+     901     898  0 19:35 pts/0    00:00:00 /bin/bash --norc --noprofile
+root         904      61  0 19:35 ?        00:00:00 sshd: samikm2291 [priv]
+samikm2+     906     904  0 19:35 ?        00:00:00 sshd: samikm2291@pts/1
+samikm2+     907     906  0 19:35 pts/1    00:00:00 bash -c if [ -f /google/devshell/start-shell.sh ]; then   /google/devshell/start-shell.sh  ''  ''  ''  '1740193569'  false else  bash --login fi
+samikm2+     908     907  0 19:35 pts/1    00:00:00 /bin/bash /google/devshell/start-shell.sh    1740193569 false
+samikm2+     909     908  0 19:35 pts/1    00:00:00 tmux new-session -A -D -n cloudshell -s 1740193569
+samikm2+     911       1  0 19:35 ?        00:00:00 tmux new-session -A -D -n cloudshell -s 1740193569
+samikm2+     912     911  0 19:35 pts/2    00:00:00 -bash
+samikm2+    1671     912  0 19:41 pts/2    00:00:00 ps -ef
