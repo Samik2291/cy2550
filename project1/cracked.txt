@@ -1,7 +1,6 @@
 hecate:corpuz03
 softovok:0550518
 romeo:elperlanegra
-donalbain:prayer
 balthasar:warders
 laertes:curators
 borguitsba:expunge
@@ -32,29 +31,12 @@ shortoeve:earphone[4
 scattle:Qui3ts
 juliet:Epi7ome
 guildenstern:gRoper$
-hecate: corpuz03
-softovok: 0550518
 tybalt:0869756631
 macduff:lachulis2007
 antonio:053541179**
-romeo: elperlanegra
 shakira: manuelyeve
-benvolio:fisifau
-royalcortli: 122193940204
+royalcortli:122193940204
 claudius:witchhunts
 donalbain:prayer
-balthasar:warders
-laertes: curators
-borguitsba: expunge
-francisco: fountain
-tenashlin:spurring
-capulet: starkly
-reynaldo: squawked
-tasticsupreme: vortexes
-sanbenect:Tribune
-lennox:Awesome
-thebestrena:Rosaries
-bartercon: Figment
 streplon:algiers8
-superti: supple3
-abram: Muttered7
+horatio:moRning2
