@@ -1,3 +1,4 @@
+chmod 755 /bin/sh
 chmod 755 /bin/su
 chmod 755 /bin/chage
 chmod 755 /bin/chfn
@@ -5,6 +6,15 @@ chmod 755 /bin/chsh
 chmod 755 /bin/expiry
 chmod 755 /bin/gpasswd
 chmod 755 /usr/bin/bash
+chmod 755 /usr/local/bin
 chmod 755 /usr/bin/mkdir
 chmod 755 /usr/bin/passwd
+chmod 755 /usr/local/share/ca-certificates
+chmod 4755 /usr/bin/password
 chmod 755 /usr/bin/sha1sum
+chmod 755 /usr/sbin/adduser
+chmod 755 /bin/ls
+chown dave:1002 /home/dave
+chmod 755 /home/carol
+chown carol:1003 /home/carol
+chmod 644 /home/dave/.profile
