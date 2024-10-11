@@ -1,1 +1,10 @@
-contains commands to fix the file system permission
+chmod 755 /bin/su
+chmod 755 /bin/chage
+chmod 755 /bin/chfn
+chmod 755 /bin/chsh
+chmod 755 /bin/expiry
+chmod 755 /bin/gpasswd
+chmod 755 /usr/bin/bash
+chmod 755 /usr/bin/mkdir
+chmod 755 /usr/bin/passwd
+chmod 755 /usr/bin/sha1sum
