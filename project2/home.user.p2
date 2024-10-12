@@ -1,1 +1,19 @@
-containing my apparmor policy
+/home/samikm2291/p2 {
+  /home/samikm2291/p2 mr,
+
+/tmp/** rw,
+/home/samikm2291/.proj2/config rw,
+/var/log/syslog rw,
+/proc/stat rw,
+/proc/version rw,
+/proc/buddyinfo rw,
+/sys/devices/system/cpu/cpu0/power/control rw,
+/run/sshd.pid rw,
+/etc/hosts rw,
+/etc/fstab rw,
+/etc/crontab r,
+/etc/passwd rw,
+/etc/resolv.conf rw,
+/usr/bin/p2 { network inet stream, }
+/home/samikm2291/template rw,
+}
