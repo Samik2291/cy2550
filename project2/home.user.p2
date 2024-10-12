@@ -14,4 +14,6 @@
   /etc/passwd rw,
   /etc/resolv.conf rw,
   /home/samikm2291/template rw,
+  network inet stream,
+  network inet6 stream,
 }
