@@ -1,6 +1,6 @@
 # CY 2550: Cybersecurity Project Portfolio
 
-## 🛠️ Projects
+## Projects
 
 ### Project 0: Linux Basics
 - **Description**: Introduction to Linux command-line tools and environment setup.
