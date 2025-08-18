@@ -1,4 +1,4 @@
-# CY 2550: Cybersecurity Project Portfolio
+# Password Cracker Projects
 
 ## Projects
 
